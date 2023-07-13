@@ -1,0 +1,111 @@
+/* Container needed to position the button. Adjust the width as needed */
+.container {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* Make the image responsive */
+  .container img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  .container .btn {
+    position: absolute;
+    top: 68.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #AF5353;
+    color: white;
+    font-size: 16px;
+    padding: 14px 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+
+  .btn {
+    background-color: #AF5353;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .btn:hover {
+    background-color: black;
+  }
+
+ .card .btn {
+    background-color: #AF5353;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .card .btn:hover {
+    background-color: black;
+  }
+
+  .content .btn {
+    background-color: #AF5353;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .btn-delete {
+    background-color: white;
+    color:#FFC300;
+    font-size: 16px;
+    padding: 2px 8px;
+    border-style: double;
+    border-color:#FFC300;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  .btn-delete:hover {
+    background-color:#FFC300 ;
+    color: white;
+  }
+
+  .content .btn:hover {
+    background-color: black;
+  }
+
+  .content{
+    margin:auto;
+    width: 96%;
+    padding: 15px;
+  }
+  
+  table{
+      padding: 15px;
+  }
+  
+  td{
+    color: black;
+      padding: 15px;
+  }
+
+  #canvas-container {
+    width: 100%;
+    text-align:center;
+ }
+ 
+ canvas {
+    display: inline;
+ }
+
